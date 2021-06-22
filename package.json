@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vant": "^3.1.0-beta.0",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "amfe-flexible": "^2.2.1",
+    "inobounce": "^0.2.0",
+    "postcss-pxtorem": "5.1.1",
+    "vite": "^2.3.7",
+    "vite-plugin-imp": "^2.0.7"
+  }
+}
