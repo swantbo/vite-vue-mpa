@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import mpa from 'vite-plugin-mpa';
 import vue from '@vitejs/plugin-vue';
 import vitePluginImp from 'vite-plugin-imp';
 
@@ -22,6 +23,12 @@ export default defineConfig({
           },
         },
       ],
+    }),
+    mpa({
+      open: '',
+      scanDir: 'src/pages',
+      scanFile: 'main.js',
+      filename: 'index.html',
     }),
   ],
 });
