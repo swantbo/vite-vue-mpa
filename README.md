@@ -21,3 +21,5 @@ yarn build
 ```
 yarn serve
 ```
+
+1. 基础spa配置, 其他配置可参考mpa（大部分mpa配置可通用）
